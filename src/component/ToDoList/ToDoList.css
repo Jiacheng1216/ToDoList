@@ -1,0 +1,123 @@
+.todolistPage {
+  background-color: lightblue;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  gap: 3em;
+}
+
+.todolistTitle {
+  font-size: 500%;
+}
+
+.todolistSelect {
+  gap: 1em;
+  width: 50%;
+  height: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todolistSelect a {
+  background-color: azure;
+  width: 10%;
+  height: 88%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 75px;
+}
+
+.todolistSelect a:hover {
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.todolistInput {
+  width: 50%;
+  height: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todolistInput input {
+  border: none;
+  outline: none;
+  font-size: 20px;
+  width: 75%;
+  height: 100%;
+  border-bottom: 3px solid;
+  background-color: lightblue;
+}
+
+.todolistInput img:hover {
+  cursor: pointer;
+}
+
+.todolistBody {
+  background-color: white;
+  width: 50%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+
+  overflow: auto;
+}
+
+.selectDiv {
+  width: 80%;
+}
+
+.todolistBody select {
+  border: none;
+  outline: none;
+  font-size: 100%;
+  width: 15%;
+  margin-top: 1em;
+  padding: 0.5em;
+  border-radius: 75px;
+  background-color: whitesmoke;
+}
+
+.listBody {
+  background-color: lightcoral;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 1em;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.listClass {
+  background-color: aqua;
+  width: 15%;
+  height: 75%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 75px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.listBody p {
+  width: 40%;
+}
+
+.listBody img {
+  position: relative;
+  cursor: pointer;
+}
+
+.selected {
+  color: red;
+}

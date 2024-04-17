@@ -1,0 +1,17 @@
+.ResumePage {
+  width: 100;
+  height: 100vh;
+}
+
+.ResumePage img {
+  width: 50%;
+  margin: 1em;
+}
+
+.ResumePage h1 {
+  margin: 1em;
+}
+
+.ResumePage h2 {
+  margin: 1em;
+}
